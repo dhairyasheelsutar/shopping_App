@@ -10,11 +10,7 @@ import Masonary from "./components/masonry"
 export default function App() {
   return (
     <View style={styles.container}>
-      <Header/>
-      <Searchbox/>
       <Masonary/>
-   
-  
     </View>
   );
 }
